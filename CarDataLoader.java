@@ -229,9 +229,7 @@ public class CarDataLoader {
        }
    }
 
-   public static void printStats1(ArrayList<Car> working) {
-    throw new UnsupportedOperationException("Unimplemented method 'printStats'");
    }
-}
+
 
 
