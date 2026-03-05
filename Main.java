@@ -40,7 +40,7 @@ public class Main {
       
        while (!exit) {
            System.out.println("\n========== CAR DATABASE MENU ==========");
-           System.out.println("1. Search by Brand (case-insensitive)");
+           System.out.println("1. Search by Brand");
            System.out.println("2. Sort by Brand");
            System.out.println("3. Show Statistics");
            System.out.println("4. Show Found Car(s)");
@@ -100,7 +100,7 @@ public class Main {
     * Sorts the working list by brand and displays confirmation.
     */
    private static void sortByBrand() {
-       System.out.println("\nSorting working list by brand (case-insensitive)...");
+       System.out.println("\nSorting working list by brand...");
        CarDataLoader.sortByBrand(working);
        System.out.println("Working list sorted by brand successfully!");
        System.out.println("Tip: Sort before searching by brand for accurate binary search results.");
@@ -129,4 +129,4 @@ public class Main {
        }
    }
 }
-
+//AI assisted in adding some code for troublshooting//
