@@ -43,7 +43,7 @@ public class Main {
            System.out.println("1. Search by Brand");
            System.out.println("2. Sort by Brand");
            System.out.println("3. Show Statistics");
-           System.out.println("4. Show Found Car(s)");
+           System.out.println("4. Show Cars Found");
            System.out.println("5. Exit");
            System.out.print("Enter your choice (1-5): ");
           
